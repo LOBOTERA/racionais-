@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <style>
+		body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff0000, #8b0000);
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .timeline {
+            max-width: 800px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .event {
+            border-left: 2px solid #000000;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .event::after {
+            content: '';
+            position: absolute;
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent #000000;
+            top: 50%;
+            left: 100%;
+            margin-top: -10px;
+        }
+
+        .event h3 {
+            margin-top: 0;
+        }
+
+        .event p {
+            margin-bottom: 0;
+        }
+		  body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff0000, #8b0000);
+            color: #fff;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(000, 000, 000, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>discografia</h1>
+    </header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/menu.html">menu</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/KL%20Jay.html">biografia KJ Jay</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/brow.html">biografia mano brown</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/ice_blue.html">biografia Ice blue</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/edi_rock.html">biografia Edi Rock</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/timeline.html">discografia</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/galeria.html">galeria</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/site.html">formulario</a>
+</div>
+
+
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <div class="timeline">
+        <div class="event">
+            <h3>VIDA LOKA (PARTE 1)</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6m8AgjfI28ER6odzMxmHtR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 01/01/2022</p>
+        </div>
+
+        <div class="event">
+            <h3>NEGRO DRAMA</h3>
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3ytXzEJFeVydFfmUhHvti8?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>A VIDA É DESAFIO</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4mZu6NuOntvYZqCZPrxTqT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>JESUS CHOROU</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5wZUvwWGKaZ6NG8yckZcTM?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>VIDA LOKA (PARTE 2)</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4nTrxp4aH0g2yLVPkFmljF?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>DIARIO DE UM DETENTO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7wglwZzZoWUr8sOECwpu6L?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>EU SOU 157</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/33UECsx4DcDRampb2ah316?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>CAPITULO 4, VERSÍCULO 3</h3>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Wt61AZLG0bN2KasopE2sj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>DA PONTE PRA CÁ</h3>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/77ZXEJcwC7r4gfodNwERJz?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>ESTILO CACHORRO</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2tR8iLdCeYhVcyPZvN6T7X?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>EU TE PROPONHO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1NLmmwS2qMv8YhIRQrCmZ7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>SOU MAIS VOCÊ</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5G1T3Cj4vP7uiGMUb278ut?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>OTUS 500</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3tuMjoF61Uo54BPVzV4e0d?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>12 DE OUTUBRO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4Nqj9K6kxvIr4PnvtI1RRA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>FÓRMULA MÁGICA DA PAZ</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4aVBWmgp19jJJkUGN7mypV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>TO OUVINDO ALGUEM ME CHAMAR</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7FVBZHCF2zqffxQT4C7sb8?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>FIM DE SEMANA NO PARQUE</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6XujYsKWukkORiO5gdLVoN?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>1 POR AMOR, 2 POR DINHEIRO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1pE4I4yU6NuhJKjGoOWVuP?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div> 
+		
+		        <div class="event">
+            <h3>MAGICO DE OZ</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6G6FR1CEiuwkEbp33ryGAY?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>EXPRESSO DA MEIA-NOITE</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6CI6QHlg9ejvkWOTOni5oX?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>...</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/502TuAuj6ViVhAaJt8d6HO?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>VOCÊ ME DEVE</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5G4rIw7lHwmxQUADg2lnWo?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>JORGE DA COPADÓCIA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0YyZBGbZYAuEFu473MiyjQ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>FIO DA NAVALHA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0c14FM10q46bBQUPm4EGuU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>SALVE</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5RhpE8nYULoYAT5Oy8g9VD?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>A VITIMA</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3nn2dmSaqJU3XyEWgBxxvR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>CRIME VAI E VEM</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jWBdTq8ur6SUcgmSwUVS5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>DE VOLTA À CENA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/16oVqtzrcrdzQvtIRnA2Wx?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>EM QUAL MENTIRA VOU ACREDITAR ?</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6hxdEJHw5qPaA4r0GFGkhj?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>GRAND FINALE</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5IxNPYSXIWT9JfGFrQYRn5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>CORES E VALORES</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6aJkwHHjSLbSe9T07ulltq?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>PERIFERIA É PERIFERIA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6b08GFfrXKzdHUv5Lzntr7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>FONE (INTRO)</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1QEit92Juvj8i9QrM60gpn?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>MENTE DO VILÃO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1qx0ns6ZErHD6pZgRLw2zT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>RAPAZ COMUM</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Tt4zit1zJixRlx7khGgs3?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+
+        <div class="event">
+            <h3>GENESIS</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7mZHVS1SC9tpjxpWDn6LKt?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 30/05/2022</p>
+        </div>
+		
+				<div class="event">
+            <h3>HEY BOY</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5UB7T65eDqeuyU8FooCFBu?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>VIVÃO E VIVENDO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2igfCmo0TuciHyKMB8zWrr?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>TRUTAS E QUEBRADAS</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xmtjVIcjMRdgdB1sywkjb?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>A ESCOLHA QUE EU FIZ</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Z7IyT472Inrrb220DzJJF?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>QUANTO VALE O SHOW</h3>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/57DmIl4WnkUplQrUWZqonY?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>PRETO ZICA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1gD4sDZi8BaHunIj4zNF8B?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>MANO NA PORTA DO BAR</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0S8Zs03aqQ9K0p6IWDgsNu?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>EU COMPRO</h3>
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5VW3BRwYhsqfZYRi90UzfR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+			</div>
+			
+				<div class="event">
+            <h3>PANICO NA ZONA SUL</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4houGhRUW5vG1iEWAPKL5H?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>NA FÉ FIMÃO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0TYKO6toBeKLbyD18AVTNU?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>O BOM E O MAL</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4xo4XiELxxKdvCOR3p00EX?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>NA FÉ IRMÃO</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1BqZC8mOHog1g0m5nFQ8LT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>CORES E VALORES(FINADO)</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ZNcr9DyYl3ySLoHPm9cHt?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>LENTA</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5tZMj7uNujsbbxu5tlbzoa?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		        <div class="event">
+            <h3>PARTE 2</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6oFcHhgiLRZIHJa93y0HSt?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+
+		        <div class="event">
+            <h3>CORAÇÃO BARRABAZ</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1bLXAPqRamk6BK8mkzvgwd?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+		
+		      <div class="event">
+            <h3>SOMOS O QUE SOMOS</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2u9TNvu3s7bvuzluO18B0P?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p>Data: 15/03/2022</p>
+        </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

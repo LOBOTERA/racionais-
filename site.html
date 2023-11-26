@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Fãs</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff0000, #8b0000);
+            color: #fff;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(000, 000, 000, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+		  body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff0000, #8b0000);
+            color: #fff;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(000, 000, 000, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Formulário de Fãs</h1>
+		
+    </header>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/menu.html">menu</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/KL%20Jay.html">biografia KJ Jay</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/brow.html">biografia mano brown</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/ice_blue.html">biografia Ice blue</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/edi_rock.html">biografia Edi Rock</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/timeline.html">discografia</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/galeria.html">galeria</a>
+  <a href="file:///C:/Users/Luiz%20Henrique/Desktop/site.html">formulario</a>
+</div>
+
+
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+		
+   <label for="genero">Selecione o Gênero:</label>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option></select>
+		
+		<label for="idade">idade:</label>
+        <input type="num" id="idade" name="idade" required>
+		
+		<label for="email">telefone:</label>
+        <input type="email" id="email" name="email" required>
+		
+		<label for="email">quando começou a ouvir:</label>
+        <input type="email" id="email" name="email" required>
+		
+		<label for="email">indicaria ?</label>
+        <input type="email" id="email" name="email" required>
+		
+		<label for="email">como conheceu a banda:</label>
+        <input type="email" id="email" name="email" required>
+		
+		<label for="email">por que gosta da banda:</label>
+        <input type="email" id="email" name="email" required>
+		
+		<label for="art">integrante fav:</label>
+        <input type="text" id="text" name="text" required>
+		
+		<label for="musica">musica fav:</label>
+        <input type="text" id="email" name="email" required>
+		
+		<label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
